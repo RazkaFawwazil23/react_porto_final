@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Offset for fixed navbar */
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Optimize font rendering for crisp text */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Optimize image rendering */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+  
+  /* GPU acceleration for animations */
+  [data-aos] {
+    will-change: transform, opacity;
+  }
+  
+  /* Smooth transitions */
+  a, button {
+    transition: all 0.3s ease;
+  }
+  
+  /* Prevent layout shift */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
