@@ -31,7 +31,10 @@ export default function ChatRoom() {
           ...childSnapshot.val()
         });
       });
+      console.log('📩 Messages loaded:', messagesList.length, messagesList);
       setMessages(messagesList);
+    }, (error) => {
+      console.error('❌ Error loading messages:', error);
     });
 
     return () => unsubscribe();
