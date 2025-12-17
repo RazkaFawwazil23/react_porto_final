@@ -26,7 +26,6 @@ import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
 
-
 export const listTools = [
   {
     id: 1,
@@ -176,7 +175,8 @@ export const listProyek = [
     image: Proyek1,
     title: "Portofolio Website Draft",
     subtitle: "A draft of my personal portfolio website",
-    fullDescription:"Draft of my personal portfolio website showcasing my skills, projects, and professional journey. This preliminary version highlights my technical expertise in web development and design, serving as a foundation for further enhancements and refinements to create a comprehensive online presence with HTML, CSS, and JavaScript.",
+    fullDescription:
+      "Draft of my personal portfolio website showcasing my skills, projects, and professional journey. This preliminary version highlights my technical expertise in web development and design, serving as a foundation for further enhancements and refinements to create a comprehensive online presence with HTML, CSS, and JavaScript.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio",
@@ -188,7 +188,8 @@ export const listProyek = [
     image: Proyek2,
     title: "E-commerce Website",
     subtitle: "A platform for buying and selling products online",
-    fullDescription:"A platform for buying and selling products online, featuring user authentication, product listings, and a shopping cart. Built with a modern tech stack, this project demonstrates the capabilities of web development in creating functional and user-friendly e-commerce solutions with HTML, CSS, and JavaScript.",
+    fullDescription:
+      "A platform for buying and selling products online, featuring user authentication, product listings, and a shopping cart. Built with a modern tech stack, this project demonstrates the capabilities of web development in creating functional and user-friendly e-commerce solutions with HTML, CSS, and JavaScript.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Projects_Razka-Fawwazil",
@@ -200,7 +201,8 @@ export const listProyek = [
     image: Proyek3,
     title: "To-Do List App",
     subtitle: "A simple and intuitive to-do list application",
-    fullDescription:"A simple and intuitive to-do list application built with Next.js, React, and Tailwind CSS, TypeScript. This project allows users to create, edit, and delete tasks, providing a seamless experience for managing daily activities. The clean design and user-friendly interface make it easy for anyone to stay organized and productive.",
+    fullDescription:
+      "A simple and intuitive to-do list application built with Next.js, React, and Tailwind CSS, TypeScript. This project allows users to create, edit, and delete tasks, providing a seamless experience for managing daily activities. The clean design and user-friendly interface make it easy for anyone to stay organized and productive.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/ToDoList-Project",
@@ -211,8 +213,10 @@ export const listProyek = [
     id: 4,
     image: Proyek4,
     title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    subtitle:
+      "An interactive web portfolio showcasing my professional journey...",
+    fullDescription:
+      "An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio-final",
@@ -224,7 +228,8 @@ export const listProyek = [
     image: Proyek5,
     title: "Tic Tac Toe Game",
     subtitle: "A game of strategy...",
-    fullDescription:"A classic Tic Tac Toe game built with React, allowing users to play against each other or against an AI. The project showcases the use of state management and component-based architecture in React, providing a fun and interactive way to learn about game development.",
+    fullDescription:
+      "A classic Tic Tac Toe game built with React, allowing users to play against each other or against an AI. The project showcases the use of state management and component-based architecture in React, providing a fun and interactive way to learn about game development.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/TicTacProjectReact",
@@ -234,13 +239,14 @@ export const listProyek = [
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop's story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop's digital presence and business growth.",
+    title: "Expense Tracker Website",
+    subtitle: " A website to track and manage expenses",
+    fullDescription:
+      "A website to track and manage expenses, allowing users to input their income and expenditures, categorize them, and visualize their financial data through charts and graphs. Built with modern web technologies, this project aims to help users maintain better control over their finances and make informed budgeting decisions.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23",
-    liveDemo: "", // Tambahkan URL live demo jika ada
+    liveDemo: "https://expense-tracker-app-seven-vert.vercel.app/", // Tambahkan URL live demo jika ada
     dad: "600",
   },
 ];
