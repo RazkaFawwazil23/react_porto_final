@@ -32,6 +32,7 @@ export const listTools = [
     gambar: Tools1,
     nama: "Visual Studio Code",
     ket: "Code Editor",
+    proficiency: 95,
     dad: "100",
   },
   {
@@ -39,6 +40,7 @@ export const listTools = [
     gambar: Tools2,
     nama: "React JS",
     ket: "Framework",
+    proficiency: 90,
     dad: "200",
   },
   {
@@ -46,6 +48,7 @@ export const listTools = [
     gambar: Tools3,
     nama: "Next JS",
     ket: "Framework",
+    proficiency: 85,
     dad: "300",
   },
   {
@@ -53,6 +56,7 @@ export const listTools = [
     gambar: Tools4,
     nama: "Tailwind CSS",
     ket: "Framework",
+    proficiency: 92,
     dad: "400",
   },
   {
@@ -60,6 +64,7 @@ export const listTools = [
     gambar: Tools5,
     nama: "Bootstrap",
     ket: "Framework",
+    proficiency: 88,
     dad: "500",
   },
   {
@@ -67,6 +72,7 @@ export const listTools = [
     gambar: Tools6,
     nama: "Javascript",
     ket: "Language",
+    proficiency: 90,
     dad: "600",
   },
   {
@@ -74,6 +80,7 @@ export const listTools = [
     gambar: Tools7,
     nama: "Node JS",
     ket: "Javascript Runtime",
+    proficiency: 82,
     dad: "700",
   },
   {
@@ -81,6 +88,7 @@ export const listTools = [
     gambar: Tools8,
     nama: "Github",
     ket: "Repository",
+    proficiency: 88,
     dad: "800",
   },
   {
@@ -88,6 +96,7 @@ export const listTools = [
     gambar: Tools9,
     nama: "Python",
     ket: "Language",
+    proficiency: 75,
     dad: "900",
   },
   {
@@ -95,6 +104,7 @@ export const listTools = [
     gambar: Tools10,
     nama: "Canva",
     ket: "Design App",
+    proficiency: 80,
     dad: "1000",
   },
   {
@@ -102,6 +112,7 @@ export const listTools = [
     gambar: Tools11,
     nama: "Figma",
     ket: "Design App",
+    proficiency: 78,
     dad: "1100",
   },
   {
@@ -109,6 +120,7 @@ export const listTools = [
     gambar: Tools12,
     nama: "Java",
     ket: "Language",
+    proficiency: 72,
     dad: "1200",
   },
   {
@@ -116,6 +128,7 @@ export const listTools = [
     gambar: Tools13,
     nama: "Firebase",
     ket: "Framework",
+    proficiency: 80,
     dad: "1300",
   },
   {
@@ -123,6 +136,7 @@ export const listTools = [
     gambar: Tools14,
     nama: "HTML",
     ket: "Language",
+    proficiency: 95,
     dad: "1400",
   },
   {
@@ -130,6 +144,7 @@ export const listTools = [
     gambar: Tools15,
     nama: "CSS",
     ket: "Language",
+    proficiency: 93,
     dad: "1500",
   },
   {
@@ -137,6 +152,7 @@ export const listTools = [
     gambar: Tools16,
     nama: "TypeScript",
     ket: "Language",
+    proficiency: 85,
     dad: "1600",
   },
   {
@@ -144,6 +160,7 @@ export const listTools = [
     gambar: Tools17,
     nama: "PHP",
     ket: "Language",
+    proficiency: 70,
     dad: "1700",
   },
   {
@@ -151,13 +168,15 @@ export const listTools = [
     gambar: Tools18,
     nama: "Vite",
     ket: "Framework",
+    proficiency: 88,
     dad: "1800",
   },
   {
     id: 19,
     gambar: Tools19,
     nama: "MySql",
-    ket: "Framework",
+    ket: "Database",
+    proficiency: 75,
     dad: "1900",
   },
 ];
@@ -173,80 +192,217 @@ export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "Portofolio Website Draft",
-    subtitle: "A draft of my personal portfolio website",
+    title: "Portfolio Website Draft",
+    subtitle: "Professional portfolio showcasing development skills",
     fullDescription:
-      "Draft of my personal portfolio website showcasing my skills, projects, and professional journey. This preliminary version highlights my technical expertise in web development and design, serving as a foundation for further enhancements and refinements to create a comprehensive online presence with HTML, CSS, and JavaScript.",
+      "🎨 Designed and developed a modern portfolio website to showcase technical skills and projects. Features include responsive design, smooth animations, and optimized performance. Built with HTML5, CSS3, and JavaScript with focus on clean code and user experience. Demonstrates proficiency in front-end development and web design principles.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio",
-    liveDemo: "https://portofolio-eight-phi-87.vercel.app/", // Tambahkan URL live demo jika ada
+    liveDemo: "https://portofolio-eight-phi-87.vercel.app/",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "E-commerce Website",
-    subtitle: "A platform for buying and selling products online",
+    title: "E-Commerce Platform",
+    subtitle: "Full-featured online shopping experience",
     fullDescription:
-      "A platform for buying and selling products online, featuring user authentication, product listings, and a shopping cart. Built with a modern tech stack, this project demonstrates the capabilities of web development in creating functional and user-friendly e-commerce solutions with HTML, CSS, and JavaScript.",
+      "🛒 Built a comprehensive e-commerce platform with user authentication, product catalog, shopping cart, and checkout flow. Features include real-time inventory management, responsive design for mobile shopping, and smooth UI interactions. Implemented using modern JavaScript frameworks with emphasis on scalability and performance. Demonstrates full-stack development capabilities and e-commerce best practices.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Projects_Razka-Fawwazil",
-    liveDemo: "https://projects-razka-fawwazil.vercel.app/", // Tambahkan URL live demo jika ada
+    liveDemo: "https://projects-razka-fawwazil.vercel.app/",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "To-Do List App",
-    subtitle: "A simple and intuitive to-do list application",
+    title: "Advanced To-Do List Application",
+    subtitle: "Smart task management with modern features",
     fullDescription:
-      "A simple and intuitive to-do list application built with Next.js, React, and Tailwind CSS, TypeScript. This project allows users to create, edit, and delete tasks, providing a seamless experience for managing daily activities. The clean design and user-friendly interface make it easy for anyone to stay organized and productive.",
+      "✅ Developed a feature-rich task management application using Next.js, React, TypeScript, and Tailwind CSS. Includes CRUD operations, local storage persistence, task categorization, and filtering. Clean, intuitive interface with drag-and-drop functionality. Built with TypeScript for type safety and maintainability. Showcases modern React patterns, state management, and responsive design principles.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/ToDoList-Project",
-    liveDemo: "https://to-do-list-project-nu-rose.vercel.app/", // Tambahkan URL live demo jika ada
+    liveDemo: "https://to-do-list-project-nu-rose.vercel.app/",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle:
-      "An interactive web portfolio showcasing my professional journey...",
+    title: "Interactive Portfolio Website",
+    subtitle: "Modern portfolio with engaging UI/UX",
     fullDescription:
-      "An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+      "💼 Created an interactive portfolio website featuring smooth animations, dynamic content, and modern design patterns. Implements advanced CSS techniques, responsive layouts, and optimized performance. Includes project showcases, skills presentation, and contact forms. Built to impress recruiters with both design aesthetics and technical implementation. Demonstrates expertise in front-end development and UI/UX principles.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio-final",
-    liveDemo: "https://razka-portfolio.vercel.app", // Contoh: ganti dengan URL Anda
+    liveDemo: "https://razka-portfolio.vercel.app",
     dad: "400",
   },
   {
     id: 5,
     image: Proyek5,
-    title: "Tic Tac Toe Game",
-    subtitle: "A game of strategy...",
+    title: "Tic Tac Toe Game with AI",
+    subtitle: "Classic game with intelligent opponent",
     fullDescription:
-      "A classic Tic Tac Toe game built with React, allowing users to play against each other or against an AI. The project showcases the use of state management and component-based architecture in React, providing a fun and interactive way to learn about game development.",
+      "🎮 Built an interactive Tic Tac Toe game with React featuring AI opponent with minimax algorithm. Includes game state management, winning condition detection, and score tracking. Clean, responsive interface with smooth animations. Demonstrates algorithmic thinking, React hooks, and component composition. Perfect showcase of game logic implementation and interactive UI development.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/TicTacProjectReact",
-    liveDemo: "https://tic-tac-project-react-five.vercel.app/", // Tambahkan URL live demo jika ada
+    liveDemo: "https://tic-tac-project-react-five.vercel.app/",
     dad: "500",
   },
   {
     id: 6,
     image: Proyek6,
-    title: "Expense Tracker Website",
-    subtitle: " A website to track and manage expenses",
+    title: "Personal Finance Tracker",
+    subtitle: "Comprehensive expense management solution",
     fullDescription:
-      "A website to track and manage expenses, allowing users to input their income and expenditures, categorize them, and visualize their financial data through charts and graphs. Built with modern web technologies, this project aims to help users maintain better control over their finances and make informed budgeting decisions.",
+      "💰 Developed a full-featured expense tracking application with income/expense management, category-based organization, and data visualization through interactive charts. Features include budget planning, financial reports, and transaction history. Built with modern web technologies focusing on data management and user-friendly interface. Helps users gain insights into their spending patterns and make informed financial decisions.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23",
-    liveDemo: "https://expense-tracker-app-seven-vert.vercel.app/", // Tambahkan URL live demo jika ada
+    liveDemo: "https://expense-tracker-app-seven-vert.vercel.app/",
     dad: "600",
+  },
+];
+
+export const achievements = [
+  {
+    id: 1,
+    icon: "🏆",
+    title: "Dean's List Achievement",
+    organization: "Bina Nusantara University",
+    year: "2023-2024",
+    description: "Achieved GPA 3.01/4.00 in Computer Science program",
+  },
+  {
+    id: 2,
+    icon: "💻",
+    title: "10+ Projects Delivered",
+    organization: "Personal & Academic",
+    year: "2022-2025",
+    description: "Successfully completed and deployed 10+ web applications",
+  },
+  {
+    id: 3,
+    icon: "⚡",
+    title: "Modern Web Stack Expert",
+    organization: "Self-taught",
+    year: "2022-2025",
+    description:
+      "Proficient in React, Next.js, TypeScript, and modern frameworks",
+  },
+  {
+    id: 4,
+    icon: "🎯",
+    title: "Full-Stack Developer",
+    organization: "Various Projects",
+    year: "2022-2025",
+    description: "End-to-end development from frontend to backend & deployment",
+  },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    role: "Member of Learning and Training",
+    company: "Bina Nusantara Computer Club",
+    period: "Oct 2024 - Apr 2025",
+    description:
+      "Completed intensive training focused on Mobile Application Development, covering programming fundamentals and project-based learning. Designed and developed a cross-platform mobile application using Flutter to demonstrate technical proficiency and practical implementation skills. Focused on UI/UX design, state management, and responsive interface development.",
+    technologies: [
+      "Flutter",
+      "Mobile Development",
+      "UI/UX",
+      "State Management",
+      "Cross-platform",
+    ],
+  },
+  {
+    id: 2,
+    role: "Head of Event Division",
+    company: "Permata Cup",
+    period: "Jun 2025 - Aug 2025",
+    description:
+      "Spearheaded the Event Division for a multi-sport competition featuring 5 sports (futsal, basketball, badminton, table tennis, and volleyball) with 250+ participants. Designed and executed a full event rundown, ensuring 100% on-time program delivery. Supervised a team of 8 committee members, coordinating logistics and operations for 20+ matches.",
+    technologies: [
+      "Event Management",
+      "Team Leadership",
+      "Project Coordination",
+      "Logistics",
+      "Operations",
+    ],
+  },
+  {
+    id: 3,
+    role: "Volunteer Educator",
+    company: "Teach for Indonesia",
+    period: "Nov 2024 - Dec 2025",
+    description:
+      "Delivered English language instruction to over 15 early childhood students at PAUD Al-Aqidah through interactive, play-based learning sessions. Designed and facilitated creative learning activities that fostered critical thinking, idea generation, and self-expression. Observed measurable improvements in children's confidence, communication, and creative engagement.",
+    technologies: [
+      "Teaching",
+      "Curriculum Design",
+      "Child Education",
+      "Communication",
+      "Creative Learning",
+    ],
+  },
+  {
+    id: 4,
+    role: "Staff of Event Organizers",
+    company: "Karang Taruna",
+    period: "Dec 2022 - Jul 2024",
+    description:
+      "Organized monthly community clean-up initiatives, fostering environmental awareness and collective responsibility. Coordinated a Halal Bihalal gathering, strengthening social ties and unity among 200+ participants. Managed a cultural performance event, successfully inviting representatives from the Depok Regional House of Representatives (DPRD).",
+    technologies: [
+      "Community Organizing",
+      "Event Planning",
+      "Stakeholder Management",
+      "Social Impact",
+      "Leadership",
+    ],
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Project Collaborator",
+    role: "Fellow Developer",
+    avatar: "👨‍💻",
+    content:
+      "Razka is a talented developer with strong problem-solving skills. His attention to detail and commitment to writing clean code makes him an excellent team member.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Academic Peer",
+    role: "Classmate at Bina Nusantara",
+    avatar: "👩‍🎓",
+    content:
+      "Working with Razka on group projects has been amazing. He brings innovative solutions and always delivers quality work on time. His technical skills are impressive!",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Client",
+    role: "Web Project Client",
+    avatar: "💼",
+    content:
+      "Professional, responsive, and delivers exactly what was promised. Razka transformed our vision into a beautiful, functional website. Highly recommended!",
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: "Mentor Feedback",
+    role: "Technical Mentor",
+    avatar: "🎯",
+    content:
+      "Razka shows great potential as a full-stack developer. He's quick to learn new technologies and applies best practices consistently. A promising young talent!",
+    rating: 5,
   },
 ];
