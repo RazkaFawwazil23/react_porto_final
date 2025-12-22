@@ -195,7 +195,7 @@ export const listProyek = [
     title: "Portfolio Website Draft",
     subtitle: "Professional portfolio showcasing development skills",
     fullDescription:
-      "🎨 Designed and developed a modern portfolio website to showcase technical skills and projects. Features include responsive design, smooth animations, and optimized performance. Built with HTML5, CSS3, and JavaScript with focus on clean code and user experience. Demonstrates proficiency in front-end development and web design principles.",
+      " Designed and developed a modern portfolio website to showcase technical skills and projects. Features include responsive design, smooth animations, and optimized performance. Built with HTML5, CSS3, and JavaScript with focus on clean code and user experience. Demonstrates proficiency in front-end development and web design principles.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio",
@@ -208,7 +208,7 @@ export const listProyek = [
     title: "E-Commerce Platform",
     subtitle: "Full-featured online shopping experience",
     fullDescription:
-      "🛒 Built a comprehensive e-commerce platform with user authentication, product catalog, shopping cart, and checkout flow. Features include real-time inventory management, responsive design for mobile shopping, and smooth UI interactions. Implemented using modern JavaScript frameworks with emphasis on scalability and performance. Demonstrates full-stack development capabilities and e-commerce best practices.",
+      "Built a comprehensive e-commerce platform with user authentication, product catalog, shopping cart, and checkout flow. Features include real-time inventory management, responsive design for mobile shopping, and smooth UI interactions. Implemented using modern JavaScript frameworks with emphasis on scalability and performance. Demonstrates full-stack development capabilities and e-commerce best practices.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Projects_Razka-Fawwazil",
@@ -221,7 +221,7 @@ export const listProyek = [
     title: "Advanced To-Do List Application",
     subtitle: "Smart task management with modern features",
     fullDescription:
-      "✅ Developed a feature-rich task management application using Next.js, React, TypeScript, and Tailwind CSS. Includes CRUD operations, local storage persistence, task categorization, and filtering. Clean, intuitive interface with drag-and-drop functionality. Built with TypeScript for type safety and maintainability. Showcases modern React patterns, state management, and responsive design principles.",
+      " Developed a feature-rich task management application using Next.js, React, TypeScript, and Tailwind CSS. Includes CRUD operations, local storage persistence, task categorization, and filtering. Clean, intuitive interface with drag-and-drop functionality. Built with TypeScript for type safety and maintainability. Showcases modern React patterns, state management, and responsive design principles.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/ToDoList-Project",
@@ -234,7 +234,7 @@ export const listProyek = [
     title: "Interactive Portfolio Website",
     subtitle: "Modern portfolio with engaging UI/UX",
     fullDescription:
-      "💼 Created an interactive portfolio website featuring smooth animations, dynamic content, and modern design patterns. Implements advanced CSS techniques, responsive layouts, and optimized performance. Includes project showcases, skills presentation, and contact forms. Built to impress recruiters with both design aesthetics and technical implementation. Demonstrates expertise in front-end development and UI/UX principles.",
+      " Created an interactive portfolio website featuring smooth animations, dynamic content, and modern design patterns. Implements advanced CSS techniques, responsive layouts, and optimized performance. Includes project showcases, skills presentation, and contact forms. Built to impress recruiters with both design aesthetics and technical implementation. Demonstrates expertise in front-end development and UI/UX principles.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23/Portofolio-final",
@@ -244,10 +244,10 @@ export const listProyek = [
   {
     id: 5,
     image: Proyek5,
-    title: "Tic Tac Toe Game with AI",
+    title: "Tic Tac Toe Game",
     subtitle: "Classic game with intelligent opponent",
     fullDescription:
-      "🎮 Built an interactive Tic Tac Toe game with React featuring AI opponent with minimax algorithm. Includes game state management, winning condition detection, and score tracking. Clean, responsive interface with smooth animations. Demonstrates algorithmic thinking, React hooks, and component composition. Perfect showcase of game logic implementation and interactive UI development.",
+      " Built an interactive Tic Tac Toe game with React featuring AI opponent with minimax algorithm. Includes game state management, winning condition detection, and score tracking. Clean, responsive interface with smooth animations. Demonstrates algorithmic thinking, React hooks, and component composition. Perfect showcase of game logic implementation and interactive UI development.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/RazkaFawwazil23/TicTacProjectReact",
@@ -260,7 +260,7 @@ export const listProyek = [
     title: "Personal Finance Tracker",
     subtitle: "Comprehensive expense management solution",
     fullDescription:
-      "💰 Developed a full-featured expense tracking application with income/expense management, category-based organization, and data visualization through interactive charts. Features include budget planning, financial reports, and transaction history. Built with modern web technologies focusing on data management and user-friendly interface. Helps users gain insights into their spending patterns and make informed financial decisions.",
+      " Developed a full-featured expense tracking application with income/expense management, category-based organization, and data visualization through interactive charts. Features include budget planning, financial reports, and transaction history. Built with modern web technologies focusing on data management and user-friendly interface. Helps users gain insights into their spending patterns and make informed financial decisions.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/RazkaFawwazil23",
