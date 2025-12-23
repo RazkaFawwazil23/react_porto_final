@@ -9,9 +9,8 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 
-    0 8px 32px 0 rgba(0, 0, 0, 0.37),
-    inset 0 0 20px rgba(168, 85, 247, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37),
+    inset 0 0 20px rgba(239, 68, 68, 0.1);
 }
 
 .chatroom-header {
@@ -19,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: rgba(168, 85, 247, 0.1);
+  background: rgba(239, 68, 68, 0.1);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -41,7 +40,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 2px solid #a855f7;
+  border: 2px solid #ef4444;
 }
 
 .user-info span {
@@ -61,12 +60,12 @@
 }
 
 .btn-login {
-  background: #a855f7;
+  background: #ef4444;
   color: white;
 }
 
 .btn-login:hover {
-  background: #9333ea;
+  background: #dc2626;
 }
 
 .btn-logout {
@@ -137,7 +136,7 @@
 .message-author {
   font-size: 12px;
   font-weight: 600;
-  color: #a855f7;
+  color: #ef4444;
 }
 
 .message-text {
@@ -153,17 +152,17 @@
 }
 
 .own-message .message-text {
-  background: rgba(168, 85, 247, 0.8);
+  background: rgba(239, 68, 68, 0.8);
   backdrop-filter: blur(10px);
   color: white;
-  border: 1px solid rgba(168, 85, 247, 0.3);
+  border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
 .message-form {
   display: flex;
   gap: 10px;
   padding: 20px;
-  background: rgba(168, 85, 247, 0.1);
+  background: rgba(239, 68, 68, 0.1);
   backdrop-filter: blur(10px);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -181,7 +180,7 @@
 }
 
 .message-input:focus {
-  border-color: #a855f7;
+  border-color: #ef4444;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -193,7 +192,7 @@
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background: #a855f7;
+  background: #ef4444;
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -202,7 +201,7 @@
 }
 
 .btn-send:hover {
-  background: #9333ea;
+  background: #dc2626;
 }
 
 .btn-send:active {

@@ -72,10 +72,6 @@ function App() {
               <q>Building the future, one line at a time</q>
             </div>
 
-            <div className="inline-block bg-gradient-to-r from-violet-500 to-blue-500 text-white text-sm font-semibold px-4 py-2 rounded-full mb-4">
-              Available for Work Opportunities
-            </div>
-
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText
                 text="Hi, I'm Razka Fawwazil Hakim"
@@ -85,7 +81,7 @@ function App() {
               />
             </h1>
 
-            <h2 className="text-2xl font-semibold text-violet-400 mb-4">
+            <h2 className="text-2xl font-semibold text-red-500 mb-4">
               Software Engineer
             </h2>
 
@@ -97,26 +93,11 @@ function App() {
               className="text-lg mb-4 text-gray-300"
             />
 
-            <div className="flex flex-wrap items-center gap-4 mb-6">
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-violet-400">✓</span>
-                <span>3+ Years Experience</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-violet-400">✓</span>
-                <span>10+ Projects Completed</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-violet-400">✓</span>
-                <span>3.01 GPA</span>
-              </div>
-            </div>
-
             <div className="flex items-center sm:gap-4 gap-2">
               <a
                 href="/assets/RazkaCV.pdf"
                 download="Razka_Fawwazil_Hakim_CV.pdf"
-                className="font-semibold bg-gradient-to-r from-violet-600 to-blue-600 p-4 px-6 rounded-full hover:from-violet-700 hover:to-blue-700 transition-all shadow-lg hover:shadow-violet-500/50"
+                className="font-semibold bg-gradient-to-r from-red-600 to-blue-600 p-4 px-6 rounded-full hover:from-red-700 hover:to-blue-700 transition-all shadow-lg hover:shadow-red-500/50"
               >
                 <ShinyText
                   text="Download CV"
@@ -128,7 +109,7 @@ function App() {
 
               <a
                 href="#project"
-                className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-violet-500 hover:bg-[#222] hover:border-violet-400 transition-all"
+                className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-red-500 hover:bg-[#222] hover:border-red-400 transition-all"
               >
                 <ShinyText
                   text="View Projects"
@@ -156,7 +137,7 @@ function App() {
         </div>
         {/* tentang */}
         <div
-          className="mt-15 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6"
+          className="mt-15 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-red-500/40 shadow-[0_0_30px_rgba(239,68,68,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6"
           id="about"
         >
           <div
@@ -165,13 +146,13 @@ function App() {
             data-aos-duration="400"
             data-aos-once="true"
           >
-            <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-violet-500/30">
+            <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-red-500/30">
               {/* Kolom kiri */}
               <div className="flex-1 text-left">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
                   About Me
                 </h2>
-                <p className="text-violet-400 font-semibold mb-5">
+                <p className="text-red-500 font-semibold mb-5">
                   Why Choose Me As Your Developer?
                 </p>
 
@@ -183,50 +164,16 @@ function App() {
                   className="text-base md:text-lg leading-relaxed mb-6 text-gray-300"
                 />
 
-                <div className="space-y-3 mb-8">
-                  <div className="flex items-start gap-3">
-                    <span className="text-violet-400 text-xl">✓</span>
-                    <p className="text-gray-300">
-                      <strong>Production-Ready Code:</strong> Clean,
-                      maintainable, and scalable solutions following industry
-                      best practices
-                    </p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-violet-400 text-xl">✓</span>
-                    <p className="text-gray-300">
-                      <strong>Modern Tech Stack:</strong> Expertise in React,
-                      Next.js, TypeScript, Flutter, and cutting-edge frameworks
-                    </p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-violet-400 text-xl">✓</span>
-                    <p className="text-gray-300">
-                      <strong>Leadership Experience:</strong> Proven track
-                      record in event management, team coordination, and
-                      community engagement
-                    </p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-violet-400 text-xl">✓</span>
-                    <p className="text-gray-300">
-                      <strong>Well-Rounded Developer:</strong> 10+ projects
-                      completed with strong organizational and communication
-                      skills
-                    </p>
-                  </div>
-                </div>
-
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      10<span className="text-violet-500">+</span>
+                      10<span className="text-red-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
+                      3<span className="text-red-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
                   </div>
@@ -237,18 +184,11 @@ function App() {
                     data-aos-once="true"
                   >
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.01<span className="text-violet-500">/4.00</span>
+                      3.01<span className="text-red-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
                   </div>
                 </div>
-
-                <ShinyText
-                  text="Working with heart, creating with mind."
-                  disabled={false}
-                  speed={3}
-                  className="text-sm md:text-base text-violet-400"
-                />
               </div>
             </div>
 
@@ -287,11 +227,11 @@ function App() {
                 data-aos-duration="400"
                 data-aos-delay={index * 200}
                 data-aos-once="true"
-                className="relative pl-8 border-l-2 border-violet-500 pb-8 last:pb-0"
+                className="relative pl-8 border-l-2 border-red-500 pb-8 last:pb-0"
               >
-                <div className="absolute -left-3 top-0 w-6 h-6 bg-violet-500 rounded-full border-4 border-zinc-900"></div>
+                <div className="absolute -left-3 top-0 w-6 h-6 bg-red-500 rounded-full border-4 border-zinc-900"></div>
                 <div className="bg-zinc-800/60 p-6 rounded-xl hover:bg-zinc-800/80 transition-all">
-                  <h3 className="text-2xl font-bold text-violet-400">
+                  <h3 className="text-2xl font-bold text-red-500">
                     {exp.role}
                   </h3>
                   <p className="text-lg text-gray-300 mb-2">{exp.company}</p>
@@ -301,7 +241,7 @@ function App() {
                     {exp.technologies.map((tech, idx) => (
                       <span
                         key={idx}
-                        className="px-3 py-1 bg-violet-600/20 text-violet-300 rounded-full text-sm border border-violet-500/30"
+                        className="px-3 py-1 bg-red-600/20 text-red-300 rounded-full text-sm border border-red-500/30"
                       >
                         {tech}
                       </span>
@@ -329,7 +269,7 @@ function App() {
             data-aos-delay="150"
             data-aos-once="true"
           >
-            My Professional Skills & Proficiency Levels
+            My Professional Skills
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
             {listTools.map((tool) => (
@@ -341,7 +281,7 @@ function App() {
                 data-aos-once="true"
                 className="border border-zinc-700 rounded-xl bg-zinc-900/60 backdrop-blur-md hover:bg-zinc-800/80 transition-all duration-200 group shadow-lg p-5"
               >
-                <div className="flex items-center gap-4 mb-3">
+                <div className="flex items-center gap-4">
                   <img
                     src={tool.gambar}
                     alt="Tools Image"
@@ -357,22 +297,6 @@ function App() {
                       />
                     </div>
                     <p className="text-sm text-zinc-400 truncate">{tool.ket}</p>
-                  </div>
-                </div>
-
-                {/* Proficiency Bar */}
-                <div className="mt-3">
-                  <div className="flex justify-between items-center mb-1">
-                    <span className="text-xs text-gray-400">Proficiency</span>
-                    <span className="text-xs font-semibold text-violet-400">
-                      {tool.proficiency}%
-                    </span>
-                  </div>
-                  <div className="w-full bg-zinc-700 rounded-full h-2 overflow-hidden">
-                    <div
-                      className="bg-gradient-to-r from-violet-600 to-blue-500 h-2 rounded-full transition-all duration-500 ease-out"
-                      style={{ width: `${tool.proficiency}%` }}
-                    ></div>
                   </div>
                 </div>
               </div>
@@ -404,7 +328,7 @@ function App() {
           data-aos-delay="100"
           data-aos-once="true"
         >
-          <span className="text-violet-400 font-semibold">
+          <span className="text-red-500 font-semibold">
             Real-World Solutions
           </span>{" "}
           Built with Modern Technologies

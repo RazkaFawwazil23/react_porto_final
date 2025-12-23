@@ -25,6 +25,7 @@ import Tools16 from "/assets/tools/ts.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
+import Tools20 from "/assets/tools/laravel.png";
 
 export const listTools = [
   {
@@ -32,7 +33,6 @@ export const listTools = [
     gambar: Tools1,
     nama: "Visual Studio Code",
     ket: "Code Editor",
-    proficiency: 95,
     dad: "100",
   },
   {
@@ -40,7 +40,6 @@ export const listTools = [
     gambar: Tools2,
     nama: "React JS",
     ket: "Framework",
-    proficiency: 90,
     dad: "200",
   },
   {
@@ -48,7 +47,6 @@ export const listTools = [
     gambar: Tools3,
     nama: "Next JS",
     ket: "Framework",
-    proficiency: 85,
     dad: "300",
   },
   {
@@ -56,7 +54,6 @@ export const listTools = [
     gambar: Tools4,
     nama: "Tailwind CSS",
     ket: "Framework",
-    proficiency: 92,
     dad: "400",
   },
   {
@@ -64,7 +61,6 @@ export const listTools = [
     gambar: Tools5,
     nama: "Bootstrap",
     ket: "Framework",
-    proficiency: 88,
     dad: "500",
   },
   {
@@ -72,7 +68,6 @@ export const listTools = [
     gambar: Tools6,
     nama: "Javascript",
     ket: "Language",
-    proficiency: 90,
     dad: "600",
   },
   {
@@ -80,7 +75,6 @@ export const listTools = [
     gambar: Tools7,
     nama: "Node JS",
     ket: "Javascript Runtime",
-    proficiency: 82,
     dad: "700",
   },
   {
@@ -88,7 +82,6 @@ export const listTools = [
     gambar: Tools8,
     nama: "Github",
     ket: "Repository",
-    proficiency: 88,
     dad: "800",
   },
   {
@@ -96,7 +89,6 @@ export const listTools = [
     gambar: Tools9,
     nama: "Python",
     ket: "Language",
-    proficiency: 75,
     dad: "900",
   },
   {
@@ -104,7 +96,6 @@ export const listTools = [
     gambar: Tools10,
     nama: "Canva",
     ket: "Design App",
-    proficiency: 80,
     dad: "1000",
   },
   {
@@ -112,7 +103,6 @@ export const listTools = [
     gambar: Tools11,
     nama: "Figma",
     ket: "Design App",
-    proficiency: 78,
     dad: "1100",
   },
   {
@@ -120,7 +110,6 @@ export const listTools = [
     gambar: Tools12,
     nama: "Java",
     ket: "Language",
-    proficiency: 72,
     dad: "1200",
   },
   {
@@ -128,7 +117,6 @@ export const listTools = [
     gambar: Tools13,
     nama: "Firebase",
     ket: "Framework",
-    proficiency: 80,
     dad: "1300",
   },
   {
@@ -136,7 +124,6 @@ export const listTools = [
     gambar: Tools14,
     nama: "HTML",
     ket: "Language",
-    proficiency: 95,
     dad: "1400",
   },
   {
@@ -144,7 +131,6 @@ export const listTools = [
     gambar: Tools15,
     nama: "CSS",
     ket: "Language",
-    proficiency: 93,
     dad: "1500",
   },
   {
@@ -152,7 +138,6 @@ export const listTools = [
     gambar: Tools16,
     nama: "TypeScript",
     ket: "Language",
-    proficiency: 85,
     dad: "1600",
   },
   {
@@ -160,7 +145,6 @@ export const listTools = [
     gambar: Tools17,
     nama: "PHP",
     ket: "Language",
-    proficiency: 70,
     dad: "1700",
   },
   {
@@ -168,7 +152,6 @@ export const listTools = [
     gambar: Tools18,
     nama: "Vite",
     ket: "Framework",
-    proficiency: 88,
     dad: "1800",
   },
   {
@@ -176,8 +159,14 @@ export const listTools = [
     gambar: Tools19,
     nama: "MySql",
     ket: "Database",
-    proficiency: 75,
     dad: "1900",
+  },
+  {
+    id: 20,
+    gambar: Tools20,
+    nama: "Laravel",
+    ket: "Framework",
+    dad: "2000",
   },
 ];
 
@@ -197,7 +186,7 @@ export const listProyek = [
     fullDescription:
       " Designed and developed a modern portfolio website to showcase technical skills and projects. Features include responsive design, smooth animations, and optimized performance. Built with HTML5, CSS3, and JavaScript with focus on clean code and user experience. Demonstrates proficiency in front-end development and web design principles.",
     borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    gradient: "linear-gradient(145deg, #3B82F6, #1e3a8a, #0f172a)",
     url: "https://github.com/RazkaFawwazil23/Portofolio",
     liveDemo: "https://portofolio-eight-phi-87.vercel.app/",
     dad: "100",
@@ -210,7 +199,7 @@ export const listProyek = [
     fullDescription:
       "Built a comprehensive e-commerce platform with user authentication, product catalog, shopping cart, and checkout flow. Features include real-time inventory management, responsive design for mobile shopping, and smooth UI interactions. Implemented using modern JavaScript frameworks with emphasis on scalability and performance. Demonstrates full-stack development capabilities and e-commerce best practices.",
     borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
+    gradient: "linear-gradient(180deg, #10B981, #065f46, #0f172a)",
     url: "https://github.com/RazkaFawwazil23/Projects_Razka-Fawwazil",
     liveDemo: "https://projects-razka-fawwazil.vercel.app/",
     dad: "200",
@@ -223,7 +212,7 @@ export const listProyek = [
     fullDescription:
       " Developed a feature-rich task management application using Next.js, React, TypeScript, and Tailwind CSS. Includes CRUD operations, local storage persistence, task categorization, and filtering. Clean, intuitive interface with drag-and-drop functionality. Built with TypeScript for type safety and maintainability. Showcases modern React patterns, state management, and responsive design principles.",
     borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    gradient: "linear-gradient(145deg, #3B82F6, #1e3a8a, #0f172a)",
     url: "https://github.com/RazkaFawwazil23/ToDoList-Project",
     liveDemo: "https://to-do-list-project-nu-rose.vercel.app/",
     dad: "300",
@@ -236,7 +225,7 @@ export const listProyek = [
     fullDescription:
       " Created an interactive portfolio website featuring smooth animations, dynamic content, and modern design patterns. Implements advanced CSS techniques, responsive layouts, and optimized performance. Includes project showcases, skills presentation, and contact forms. Built to impress recruiters with both design aesthetics and technical implementation. Demonstrates expertise in front-end development and UI/UX principles.",
     borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
+    gradient: "linear-gradient(180deg, #10B981, #065f46, #0f172a)",
     url: "https://github.com/RazkaFawwazil23/Portofolio-final",
     liveDemo: "https://razka-portfolio.vercel.app",
     dad: "400",
@@ -249,7 +238,7 @@ export const listProyek = [
     fullDescription:
       " Built an interactive Tic Tac Toe game with React featuring AI opponent with minimax algorithm. Includes game state management, winning condition detection, and score tracking. Clean, responsive interface with smooth animations. Demonstrates algorithmic thinking, React hooks, and component composition. Perfect showcase of game logic implementation and interactive UI development.",
     borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    gradient: "linear-gradient(145deg, #3B82F6, #1e3a8a, #0f172a)",
     url: "https://github.com/RazkaFawwazil23/TicTacProjectReact",
     liveDemo: "https://tic-tac-project-react-five.vercel.app/",
     dad: "500",
@@ -262,7 +251,7 @@ export const listProyek = [
     fullDescription:
       " Developed a full-featured expense tracking application with income/expense management, category-based organization, and data visualization through interactive charts. Features include budget planning, financial reports, and transaction history. Built with modern web technologies focusing on data management and user-friendly interface. Helps users gain insights into their spending patterns and make informed financial decisions.",
     borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
+    gradient: "linear-gradient(180deg, #10B981, #065f46, #0f172a)",
     url: "https://github.com/RazkaFawwazil23",
     liveDemo: "https://expense-tracker-app-seven-vert.vercel.app/",
     dad: "600",
